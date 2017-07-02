@@ -4,4 +4,4 @@ lfw/
 .ipynb_checkpoints
 dogImages/
 bottleneck_features/
-saved_models/
+saved_models/weights.best.from_scratch.hdf5
