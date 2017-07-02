@@ -4,6 +4,21 @@
 [image2]: ./images/vgg16_model.png "VGG-16 Model Keras Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
 
+## Jared Edit - this wasn't in the readme, but was in the page that describes the project, it's the code to download the files
+
+Instructions
+Follow the Udacity instructions to launch an EC2 GPU instance with the udacity-aind2 AMI. All of the remaining instructions should be executed in the EC2 instance.
+Activate the new environment: source activate aind2
+Clone the dog-project GitHub repository, and navigate to the downloaded folder:
+git clone https://github.com/udacity/dog-project.git; cd dog-project
+Download and unzip the dog dataset:
+wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip; unzip dogImages.zip; rm dogImages.zip
+Download and unzip the human dataset:
+wget http://vis-www.cs.umass.edu/lfw/lfw.tgz; tar -xvzf lfw.tgz; rm lfw.tgz
+Download and unzip the VGG-16 bottleneck features for the dog dataset:
+cd bottleneck_features; wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz; cd ..
+Start Jupyter: jupyter notebook --ip=0.0.0.0 --no-browser
+
 
 ## Project Overview
 
